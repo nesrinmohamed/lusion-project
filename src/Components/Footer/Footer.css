@@ -1,0 +1,45 @@
+
+.footer{
+    margin: 5rem 0;
+    background-color: rgb(231, 241, 245);
+}
+.row ul{
+list-style: none;
+}
+.row ul li{
+    width: 211px;
+    font-size: 23px;
+    padding: 10px 0;
+}
+.row h1{
+    width: 211px;
+}
+.row h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.row p{
+    font-size: 1.1rem;
+    width: 254px;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.links{
+    display: inline-flex;
+}
+.links svg{
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    margin-left: 1.6rem;
+}
+
+form input:nth-child(1){
+    font-weight: 600;
+    padding: 0.3rem;
+    border: 0;
+    background: white;
+}

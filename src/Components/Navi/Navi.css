@@ -1,0 +1,28 @@
+#basic-navbar-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+}
+.brand{
+   font-style: italic;
+   font-size: 1.5rem;
+   color: rgb(46, 45, 45);
+letter-spacing: 2px;
+}
+
+.icon{
+background-color: tomato;
+}
+   .badge {
+      font-size: 14px !important;
+      height: 23px;
+      font-size: 10px;
+      margin-top: -13px;
+      margin-left: -4px;
+}
+.nav-link{
+margin-right: 10px;
+font-size: 1.2rem;
+font-weight: bold;
+color: black;
+}

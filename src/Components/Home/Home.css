@@ -1,0 +1,197 @@
+/* slider  */
+.carousel-caption {
+    position: absolute;
+    top: 47%;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: black;
+}
+/* Section 1 */
+.section1{
+    width: 80%;
+    margin: 2rem auto;
+}
+.section1 .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.card-item{
+    width: 30%;
+}
+.card-item img{
+    width: 100%;
+    transition: 0.6s all;
+    /* transform: scale(0.8); */
+}
+.card-item img:hover{
+    transform: scale(1.05);
+}
+.img-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+.price{
+font-weight: bold;
+}
+/* section2 */
+.section2{
+  width:90%;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+.best-selling{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.best-selling h1{
+    padding: 1rem;
+}
+.best-selling p{
+    color: gray;
+    font-weight: bold;
+}
+.slide p{
+  color: gray;
+  font-weight: bold;
+}
+.slide img{
+    width: 100%;
+    margin-left: -47px;
+    padding: 1rem;
+}
+.icon{
+    margin-top: -25%;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    color: gray;
+}
+.section2 .slide-title{
+    position: absolute;
+    top: 166px;
+    right: -56px;
+    z-index: 22;
+    border: 1px solid;
+    width: fit-content;
+    transform: rotate(91deg);
+    padding: 1rem;
+}
+.swiper-button-prev.swiper-button {
+    color: white;
+    position: absolute;
+    left: 96%;
+    top: 18rem;
+    border: 2px solid;
+    border-radius: 50%;
+    background: black;
+}
+.swiper-button-prev::after{
+    font-size: 25px !important;
+}
+.swiper-button-next.swiper-button {
+    right: 20px;
+    left: auto;
+    background: black;
+    color: white;
+    border-radius: 50%;
+}
+.swiper-button-next::after{
+    font-size: 25px !important;
+}
+
+
+/* start section 3  */
+.section3{
+background-color: white;
+}
+.section3 .container{
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.desc-left-img{
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.desc-left-img h6{
+    font-size: 3rem;
+    color: black;
+    font-weight: 400;
+    margin-left: 2rem;
+    letter-spacing: 2px;
+}
+.desc-left-img h1{
+    font-size: 5rem;
+    width: 50%;
+}
+.desc-left-img h1 span{
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+}
+.container .right{
+    background:#e1d6d6;
+    height: 400px;
+    width: 250px;
+}
+.right-title{
+    margin-top: 5rem;
+    text-align: right;
+}
+.right-title h4{
+    width: 109%;
+    font-size: 2rem;
+}
+.right-title h1{
+    font-size: 4rem;
+    width: 132%;
+    font-weight: 800;
+}
+.right-title h2{
+font-size: 3rem;
+font-weight: bold;
+position: relative;
+width: 90%;
+}
+.right-title h2 span{
+    position: absolute;
+    font-size: 1.5rem;
+}
+/* start section4 */
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.left-s{
+    width: 60%;
+}
+.row{
+    display: grid !important;
+    grid-template-columns: repeat(3 , 250px);
+}
+.row img{
+padding: 0;
+}
+.right-s{
+    width: 30%;
+}
+.right-s p{
+    color: gray;
+    padding: 1rem;
+}

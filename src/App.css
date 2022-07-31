@@ -6,7 +6,22 @@
   height: 40vmin;
   pointer-events: none;
 }
+section{
+  margin: 5rem 0;
+  overflow: hidden;
+}
+.btn{
+  border: 1px solid black  !important;
+  color: black;
+  font-weight: 500 !important;
+  transition: 0.6s all;
 
+}
+.btn:hover{
+  background-color: rgb(66, 65, 65) !important;
+  border: 1px solid  rgb(66, 65, 65) !important;
+  color: white !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

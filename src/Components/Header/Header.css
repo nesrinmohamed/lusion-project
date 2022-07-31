@@ -1,0 +1,17 @@
+.slider{
+    margin: 2rem 0;
+}
+.slide{
+    position: relative;
+}
+.slide-desc{
+    position: absolute;
+    top: 50%;
+    left: 5rem;
+}
+.slide-desc h2{
+    font-size: 5rem;
+    width: 50%;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
