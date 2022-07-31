@@ -1,7 +1,7 @@
 
 .footer{
-    margin: 5rem 0;
-    background-color: rgb(231, 241, 245);
+    margin: 5rem 0 0 0 ;
+    background-color: rgb(240, 244, 245);
 }
 .row ul{
 list-style: none;
@@ -33,13 +33,25 @@ list-style: none;
     font-size: 1.5rem;
     width: 35px;
     height: 35px;
+    color: gray;
     padding: 4px;
     margin-left: 1.6rem;
+    transition: 0.6s all;
+}
+.links svg:hover{
+color: black;
+cursor: pointer;
 }
 
 form input:nth-child(1){
     font-weight: 600;
-    padding: 0.3rem;
+    padding: 0.5rem;
     border: 0;
     background: white;
+}
+form input:nth-child(2){
+    background: black;
+    color: white;
+    font-size: 1.1rem;
+
 }
